@@ -69,9 +69,73 @@
 	i {
 		margin-right: 5px;
 	}
+	
+}
 
-	strong {
-		color: green;
+strong {
+	color: green;
+}
+
+.languages {
+
+	border-top: 1px solid lightgray;
+	border-left: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	background: white;
+
+	a {
+		margin-left: 5px;
+		margin-right: 5px;
+		line-height: 30px;
 	}
 
+	a:hover {
+		text-decoration: underline;
+	}
+}
+
+#separator-1 {
+	height: 1px;
+	background-color: lightgray;
+	width: 100%;
+	position: absolute;
+	top: 16.9%;
+	z-index: -1;
+}
+
+#separator-2 {
+	height: 1px;
+	background-color: white;
+	width: 20.75%;
+	position: absolute;
+	top: 17%;
+}
+
+.daily-info {
+	ul {
+		display: flex;
+	}
+
+	ul li {
+		display: inline-block;
+		margin-left: 15px;
+		border-left: 1px solid gray;
+		padding-left: 15px;
+		margin-bottom: 10px;
+	}
+
+	ul li:first-child {
+		border-left: none;
+	}
+
+	li a span:hover {
+		text-decoration: underline;
+	}
+
+}
+
+img {
+	width: 40%;
 }
