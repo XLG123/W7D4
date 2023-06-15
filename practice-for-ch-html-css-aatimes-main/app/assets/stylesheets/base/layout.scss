@@ -7,7 +7,10 @@ html {
 }
 
 body {
-	// ...
+	width: 80%;
+	margin: 0 auto;
+	font-family: $serif;
+	font-size: 12px;
 }
 
 button {
@@ -48,3 +51,27 @@ hr {
 	height: 2px;
 	margin-bottom: 1px;
 }
+
+.main-nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+.left-nav ul li {
+	display: inline;
+}
+
+.right-nav ul {
+	// display: flex;
+	// flex-direction: row;
+}
+
+// .right-nav ul li {
+// 	display: inline;
+// }
+
+
+
+// .fa-solid {
+// 	display: none !important;
+// }
